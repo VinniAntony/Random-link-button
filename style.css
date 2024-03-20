@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image: url(https://i.kym-cdn.com/photos/images/original/002/356/588/849.png);
+    
+}
+
+.content {
+    display: flex;
+    display: block;
+    margin-top: 150px;
+    background-color: rgb(8, 7, 6);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+.discr {
+    font-size: large;
+    font-family: "Micro 5", sans-serif;
+}
+.bttn {
+    background: none;
+    padding: 50px;
+    border-color: black;
+}

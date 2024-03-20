@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1>The Button</h1>
+            <pre class="discr">
+ click the  Button!
+
+                With just one click, you'll embark on a digital adventure to a random website guaranteed to cure your boredom. 
+                It could be a side-splitting meme, a quirky game that will challenge your mind, or a visually stunning website that will leave you speechless.
+                
+                The  Button is your portal to a world of endless entertainment (kind of).
+                 So, what are you waiting for? Click the button and see where the Button takes you today!
+                
+                </pre>
+                
+        </div>
+        <div class="bttn">
+            <a><button onclick="randomSite()">THE BUTTON</button></a>
+            <script>
+                var sites = [
+                'https://youtu.be/xvFZjo5PgG0?si=DlYDkhVhe73mugxo',    
+'https://cat-bounce.com/',	
+'https://thatsthefinger.com/',		
+'https://cant-not-tweet-this.com/',	
+'http://www.staggeringbeauty.com/',       
+'https://isitchristmas.com/',	
+'http://endless.horse/',		
+'http://corndog.io/',	
+'https://trypap.com/',	
+'http://www.everydayim.com/',	
+'https://hackertyper.com/',	
+'https://www.trashloop.com/',	
+'https://pixelsfighting.com/',	
+'https://papertoilet.com/',	
+'https://willrobotstakemyjob.com/',	
+'https://zoomquilt.org/',		
+'http://make-everything-ok.com/',		
+'https://findtheinvisiblecow.com/',	
+'https://youtu.be/P5R0FbEQBVM?si=nCyjDpnoIdzxn1-l', 	
+'https://youtu.be/H10xp3u5AxE?si=BXcDcZ1MGEKHrWMZ',	
+                ];
+            
+                function randomSite() {
+                    var i = parseInt(Math.random() * sites.length);
+                    location.href = sites[i];
+                }
+            </script>
+         </div>
+    </main>
+    <audio autoplay loop>
+        <source src="aud/elevator-music-bossa-nova-background-music-version-60s-10900.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
